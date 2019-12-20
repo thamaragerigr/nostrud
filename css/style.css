@@ -1,0 +1,587 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  margin: 0px;
+  padding: 0;
+}
+
+#name {
+  padding: 0px;
+}
+
+#name img {
+  object-fit: cover;
+  height: 400px;
+  width: 100%;
+  -webkit-filter: brightness(150%);
+  filter: brightness(50%);
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  font-family: "Domine", serif;
+  text-decoration: underline;
+  color: white;
+}
+
+#name h2 {
+  text-align: center;
+  font-family: "Domine", serif;
+  font-size: 10px;
+  color: white;
+}
+
+#name2 {
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h2 {
+  margin: 0% 10% 0% 10%;
+  padding: 10px 0px 0px 0px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.8;
+  font-family: "Domine", serif;
+}
+
+p {
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 5% 10% 5% 10%;
+  font-size: 12px;
+  text-align: justify;
+  line-height: 1.8;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+
+/*menu*/
+header {
+  background: white;
+}
+
+header ul {
+  list-style-type: none;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 0.5px solid #d8dad9;
+  padding: 0% 0% 0% 40px;
+
+}
+
+header li {
+  float: left;
+  text-align: center;
+  font-family: "Domine", serif;
+  font-size: 14px;
+}
+
+header li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+header li a:hover {
+  background-color: #e6e6e6;
+}
+
+
+
+/*info*/
+.info div {
+  padding-top: 10px;
+}
+
+.info img {
+  width: 80%;
+}
+
+.info i {
+  padding: 1px;
+}
+
+.first {
+  grid-area: first;
+  text-align: center;
+
+}
+
+.second {
+  grid-area: second;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.third {
+  grid-area: third;
+  text-align: center;
+  padding-bottom: 0px;
+}
+
+.fourth {
+  grid-area: fourth;
+  text-align: center;
+}
+
+.fifth {
+  grid-area: fifth;
+  text-align: center;
+}
+
+.sixth {
+  grid-area: sixth;
+  text-align: center;
+}
+
+
+
+/*types*/
+.type {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.type h2 {
+  text-align: center;
+  border-bottom: 1px solid #d8dad9;
+}
+
+.type #t-one {
+  grid-area: t-one;
+  line-height: 10px;
+}
+
+.type #t-two {
+  grid-area: t-two;
+}
+
+.type #t-three {
+  grid-area: t-three;
+}
+
+#t-three img {
+  padding-top: 30px;
+  padding-bottom: 0px;
+}
+
+
+/*articles*/
+.articles {
+  text-align: center;
+
+}
+
+.articles h2 {
+  text-align: center;
+  border-top: 1px solid #d8dad9;
+  margin-top: 30px;
+  FONT-SIZE: 20px;
+}
+
+.articles i {
+  text-align: center;
+}
+
+.articles .one img {
+  width: 80%;
+  padding-bottom: 10px;
+}
+
+.four .address {
+  border-top: 1px solid #d8dad9;
+  padding-top: 10px;
+}
+
+.articles .four ul {
+  text-align: center;
+  font-family: "Domine", serif;
+  font-size: 12px;
+  padding: 20px;
+  line-height: 15px;
+  list-style-type: none;
+}
+
+.four {
+  padding-top: 10px;
+}
+
+
+
+/*breakfast menu*/
+.menub {
+  font-family: "Domine", serif;
+  padding: 0% 10% 5% 10%;
+  font-size: 12px;
+  text-align: center;
+  line-height: 1.8;
+}
+
+.menub ul li {
+  padding-top: 5%;
+  list-style-type: none;
+}
+
+.menub span {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 12px;
+  text-align: center;
+  line-height: 1.8;
+
+}
+
+.menubfood {
+  grid-area: foodb;
+}
+
+.menubdrinks {
+  grid-area: drinksb;
+}
+
+.menul {
+  font-family: "Domine", serif;
+  padding: 0% 10% 5% 10%;
+  font-size: 12px;
+  text-align: center;
+  line-height: 1.8;
+}
+
+.menul ul li {
+  padding-top: 5%;
+  list-style-type: none;
+}
+
+.menul span {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 12px;
+  text-align: center;
+  line-height: 1.8;
+
+}
+
+.menulfood {
+  grid-area: foodb;
+}
+
+.menuldrinks {
+  grid-area: drinksb;
+}
+
+#lunch {
+  width: 80%;
+}
+
+
+/*tabs*/
+.tabs-1 {
+  grid-area: tabone;
+}
+
+.tabs-2 {
+  grid-area: tabtwo;
+  padding-top: 25px;
+}
+
+.tabs-2 p {}
+
+ul.tabs {
+  margin: 0% 5% 0% 5%;
+  list-style: none;
+  background: white;
+}
+
+ul.tabs li {
+  color: #242323;
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 12px;
+}
+
+ul.tabs li:hover {
+  text-decoration: underline;
+}
+
+ul.tabs li.current {
+  color: #222;
+  text-decoration: underline;
+}
+
+.tab-content {
+  display: none;
+  padding: 12px 0px 30px 0px;
+  font-size: 12px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: black;
+  text-align: justify;
+  line-height: 1.8;
+}
+
+.tab-content.current {
+  display: inherit;
+  margin: 0% 15% 0% 15%;
+}
+
+
+/*footer*/
+footer {
+  background: #45403d;
+  color: white;
+}
+
+footer h2 {
+  padding-top: 20px;
+  font-size: 30px;
+  text-decoration: underline;
+  text-align: left;
+  margin-left: 30px;
+}
+
+footer p,
+#about {
+  padding-top: 10px;
+  font-size: 12px;
+  padding: 10px 20px 20px 10px;
+
+}
+
+#about {
+  grid-area: about;
+}
+
+footer h3 {
+  font-size: 12px;
+  padding: 10px 10px 0px 10px;
+}
+
+footer ul {
+  padding: 10px 10px 10px 20px;
+  grid-area: ul;
+  list-style: none;
+}
+
+footer ul li {
+  font-size: 12px;
+  padding: 10px 10px 1px 10px;
+}
+
+footer i {
+  padding-right: 10px;
+}
+
+/*map*/
+#map {
+  height: 500px;
+  width: 100%;
+}
+
+@media screen and (min-width: 480px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  #name h2 {
+    font-size: 15px;
+    top: 30%;
+  }
+
+  .info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "first second"
+      "third  second"
+      "third fourth"
+      "fifth sixth";
+    width: 100%;
+  }
+
+  .first,
+  .third,
+  .fifth {
+    border-right: 1px solid #d8dad9;
+  }
+
+  .fifth,
+  .sixth {
+    border-bottom: none;
+  }
+
+
+  .type {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "t-one t-two t-three";
+    width: 100%;
+  }
+
+  .type #t-three {
+    grid-area: t-three;
+    line-height: 113px;
+  }
+
+  .articles .one-text {
+    padding-top: 40px;
+    grid-area: one;
+  }
+
+  .articles .images {
+    grid-area: images;
+  }
+
+
+  .info {
+    margin-bottom: -50px;
+  }
+
+  .menub {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: " foodb drinksb";
+  }
+
+  .menubfood {
+    text-align: right;
+    padding-right: 8px;
+    padding-left: 15%;
+  }
+
+  .menubdrinks {
+    text-align: left;
+    padding-left: 8px;
+    padding-right: 15%;
+  }
+
+
+  .menul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: " foodb drinksb";
+  }
+
+  .menulfood {
+    text-align: right;
+    padding-right: 8px;
+    padding-left: 15%;
+  }
+
+  .menuldrinks {
+    text-align: left;
+    padding-left: 8px;
+    padding-right: 15%;
+  }
+
+
+  .bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "ul about";
+  }
+
+}
+
+@media screen and (min-width: 580px) {
+  .one {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      "onetext oneimages";
+    width: 100%;
+  }
+
+  .oneimages {
+    padding-top: 30px;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  main {
+    margin: 0% 10% 0% 10%;
+  }
+
+  .menubfood {
+    text-align: right;
+    padding-right: 8px;
+    padding-left: 30%;
+  }
+
+  .menubdrinks {
+    padding-right: 30%;
+  }
+
+
+  .menulfood {
+    text-align: right;
+    padding-right: 8px;
+    padding-left: 30%;
+  }
+
+  .menuldrinks {
+    padding-right: 30%;
+  }
+
+
+  footer h2 {
+    padding-bottom: 20px;
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+
+  main {
+    margin: 0% 12% 0% 12%;
+  }
+
+  #name img {
+    height: 500px;
+
+  }
+
+  h1 {
+    font-size: 80px;
+  }
+
+  #name2 {
+    top: 36%;
+    left: 50%;
+    font-size: 20px;
+
+  }
+
+  .one {
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr ;
+    grid-template-areas:
+      "onetext "
+      "oneimages";
+    width: 100%;
+  }
+
+}
